@@ -22,7 +22,7 @@ nav ul,
 }
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 
 header {
@@ -102,14 +102,9 @@ a {
     cursor: context-menu;
 }
 
-.text span {
-    display: inline-block;
-}
 
-span:hover {
-    color: skyblue;
-    transition: all .5s;
-}
+
+
 
 span.name {
     color: #b19cd9;
@@ -180,8 +175,8 @@ span.m-left {
 
 
 .general {
-    background-color: antiquewhite;
-    border: 2px solid gold;
+    background-color: #b19cd9;
+    border: 2px solid purple;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -253,11 +248,7 @@ div[class^='category-'] {
    
 }
 
-/* .work {
-    
-    z-index: 0;
-    opacity: .1;
-} */
+
 
 .work a {
     justify-self: center;
@@ -276,11 +267,7 @@ div[class^='category-'] {
     
 }
 
-button.active {
-    color: #fff;
-    
-   
-}
+
 
 .work a img {
     width: 350px;
@@ -288,13 +275,7 @@ button.active {
 
 }
 
-div.hidecategory {
-    display: none;
-}
 
-.showcategory {
-    display: block;
-}
 
 .imgThumb {
     width: 300px;
@@ -341,29 +322,7 @@ div.hidecategory {
     cursor: pointer;
 }
 
-form input,
-form textarea {
-    display: block;
-    width: 500px;
-    padding: 20px;
-    background-color: black;
-    border: 3px solid #707070;
-    margin: 20px 0;
-    outline: none;
-    font-size: 1.2rem;
-    color: #fff;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-}
 
-form input:last-child {
-    width: 150px;
-    background-color: #b19cd9;
-    border: none;
-    cursor: pointer;
-}
 
 footer hr {
     display: flex;
