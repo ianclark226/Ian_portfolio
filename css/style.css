@@ -9,6 +9,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.header {
+height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/future_technology_prospects.png);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 500px, 0 100%);
+  position: relative; }
+
 .container {
     padding: 0 100px 0 120px;
 }
@@ -95,9 +103,10 @@ a {
 .text {
     
     display: flex;
-    float: left;
+    /* float: left; */
     flex-direction: column;
     align-items: center;
+    transform: translate(70%);
 
 }
 
@@ -130,8 +139,8 @@ span.m-left {
 .text a {
     padding: 12px 25px;
     background-color: none;
-    border: 3px solid #b19cd9;
-    color: #b19cd9;
+    border: 3px solid #fff;
+    color: #fff;
     font-size: .8rem;
     letter-spacing: 2px;
     position: relative;
@@ -179,7 +188,15 @@ span.m-left {
    justify-content: center;
  }
     
-
+.mid {
+    height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/GettyImages-1159017873-328f614e43004e978b09575a5315a55b.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 10px, 100% 140%, 0% 100%, 0 20%);
+  
+  position: relative; 
+}
 
 .general {
     background-color: #b19cd9;
@@ -239,7 +256,9 @@ h2 {
     color: #fff;
     font-size: 25px;
     width: 300px;
+    margin-top: 150px;
     text-align: center;
+    transform:translate(-4%);
     
     
 }
@@ -255,13 +274,31 @@ div[class^='category-'] {
    
 }
 
-
+.mid2 {
+    height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/future_technology_prospects.png);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 100%, 100% 500px, 100% 0, 0 0);
+  
+  position: relative; 
+}
 
 .work a {
     justify-self: center;
     position: relative;
     display: inline-block;
     
+}
+
+.mid3 {
+    height: 110vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/200504-AI1\ \(1\).jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 10px, 100% 140%, 0% 100%, 0 20%);
+  
+  position: relative; 
 }
 
 
@@ -327,6 +364,16 @@ div[class^='category-'] {
     color: #fff;
     font-size: 18px;
     cursor: pointer;
+}
+
+.end {
+    height: 110vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/GettyImages-964033964-ca3290057ccc4024b57e755423572264.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: circle(40%);
+  
+  position: relative; 
 }
 
 
@@ -437,5 +484,9 @@ footer p {
 
     .flex-container {
         transform: translate(-5%);
+    }
+
+    .text {
+        transform: translate(0%);
     }
 } 
